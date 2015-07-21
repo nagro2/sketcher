@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sketcher by Nick Agro</title>
+<link rel='stylesheet' type='text/css' href='css/sketcher.css'/>
+</head>
+
+<body>
+<a href='#' id='newSketchButton' onclick='newSketch(); return false;'>New sketch</a>
+
+ <table></table> 
+
+<script src="js/jquery.js"></script>
+<script src="js/sketcher.js"></script>
+<p id = "posted_date">Posted on 7/20/2015 Nick Agro</p>
+</body>
+</html>
