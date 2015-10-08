@@ -1,7 +1,10 @@
 
 $(document).ready(function(){
 
-newGrid(16, 16);
+	$('td').remove();
+	$('tr').remove();
+
+	newGrid(16, 16);
 
 
 });
@@ -53,5 +56,4 @@ function newSketch(){
 
 	newGrid(columnsInputted, rowsInputted);
 }
-
 
