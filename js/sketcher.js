@@ -1,10 +1,8 @@
 
 $(document).ready(function(){
 
-	$('td').remove();
-	$('tr').remove();
-
-	newGrid(16, 16);
+	/*newGrid(16, 16); */
+	newSketch();
 
 
 });
