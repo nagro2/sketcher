@@ -1,9 +1,7 @@
 
 $(document).ready(function(){
 
-	/*newGrid(16, 16); */
-	newSketch();
-
+	newGrid(16, 16);
 
 });
 
@@ -21,6 +19,8 @@ function addGrid(columnsTotal, rowsTotal){
 }
 
 function newGrid(columnsDesired, rowsDesired){
+	console.log("creating new grid = " + columnsDesired + " x " + rowsDesired);
+
 	totalDrawingAreaWidth = 960;
 	totalDrawingAreaHeight = 400;
 	boxWidth = (totalDrawingAreaWidth - 4 * columnsDesired)/ columnsDesired; /* account for border lines around rows */
